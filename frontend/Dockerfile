@@ -1,5 +1,5 @@
 #Fronend/Dockerfile
-FROM node:18
+FROM node:18-slim
 WORKDIR /app
 
 COPY package.json package.json
